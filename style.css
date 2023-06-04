@@ -1,0 +1,40 @@
+
+body{
+    overflow: scroll;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(100, 115, 138, 0.479);
+    background-image: url(./pic/rockpaperscissor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(59, 57, 57);
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+button img{
+    width: 80px;
+    height: 70px;
+}
+button:hover{
+    transform: scale(2);
+}
+.player{
+    display: flex;
+    gap: 50px;
+}
+
