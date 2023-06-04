@@ -54,9 +54,9 @@ function game(){
         }
     }
     if (playerScore>compScore)
-        console.log('player won the game');
+        alert('player won the game');
     else if(playerScore===compScore)
-        console.log('it is a tie');
+        alert('it is a tie');
     else
-        console.log('computer won the game');
+        alert('computer won the game');
 }
